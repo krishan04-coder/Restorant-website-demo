@@ -1,0 +1,57 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#333;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+text-align:center;
+padding:60px;
+background:#eee;
+}
+
+.food{
+display:inline-block;
+margin:20px;
+text-align:center;
+}
+
+.food img{
+width:250px;
+border-radius:10px;
+}
+
+.gallery img{
+width:250px;
+margin:10px;
+border-radius:10px;
+}
+
+.menu-item{
+background:white;
+margin:10px;
+padding:15px;
+border-radius:8px;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:10px;
+margin-top:30px;
+}
