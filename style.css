@@ -1,33 +1,76 @@
 body{
-font-family: Arial;
+font-family: Arial, sans-serif;
 margin:0;
-background:#f4f4f4;
+background:#fafafa;
 }
 
 header{
-background:#333;
+background:#111;
 color:white;
 padding:20px;
 text-align:center;
 }
 
+nav{
+margin-top:10px;
+}
+
 nav a{
 color:white;
-margin:10px;
+margin:0 15px;
 text-decoration:none;
 font-weight:bold;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#ff9800;
 }
 
 .hero{
 text-align:center;
-padding:60px;
-background:#eee;
+padding:80px 20px;
+background-image:url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+.hero h2{
+font-size:40px;
+}
+
+.hero button{
+padding:12px 25px;
+font-size:16px;
+border:none;
+background:#ff9800;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+.hero button:hover{
+background:#e68900;
+}
+
+.special{
+text-align:center;
+padding:40px;
 }
 
 .food{
 display:inline-block;
 margin:20px;
-text-align:center;
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.food:hover{
+transform:scale(1.05);
 }
 
 .food img{
@@ -35,23 +78,54 @@ width:250px;
 border-radius:10px;
 }
 
-.gallery img{
-width:250px;
-margin:10px;
-border-radius:10px;
+.menu{
+padding:40px;
+text-align:center;
+}
+
+.menu-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
 }
 
 .menu-item{
 background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.menu-item:hover{
+transform:translateY(-5px);
+}
+
+.gallery{
+text-align:center;
+padding:40px;
+}
+
+.gallery img{
+width:250px;
 margin:10px;
-padding:15px;
-border-radius:8px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+.about, .contact{
+padding:40px;
+text-align:center;
 }
 
 footer{
-background:#333;
+background:#111;
 color:white;
 text-align:center;
-padding:10px;
+padding:15px;
 margin-top:30px;
 }
